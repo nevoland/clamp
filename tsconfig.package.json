@@ -7,6 +7,5 @@
     "allowImportingTsExtensions": false
   },
   "include": ["lib"],
-  "exclude": ["**/*.test.ts", "**/*.test.tsx"],
   "extends": "./tsconfig.json"
 }

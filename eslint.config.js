@@ -2,10 +2,7 @@ import jsConfig from "@eslint/js";
 import parser from "@typescript-eslint/parser";
 import prettierConfig from "eslint-config-prettier";
 import importPlugin from "eslint-plugin-import";
-import infernoPlugin from "eslint-plugin-inferno";
-import reactPlugin from "eslint-plugin-react";
 import sortkeysPlugin from "eslint-plugin-sort-keys";
-import tailwindcssPlugin from "eslint-plugin-tailwindcss";
 import vitestPlugin from "eslint-plugin-vitest";
 
 /**
@@ -34,15 +31,11 @@ export default [
     },
     plugins: {
       import: importPlugin,
-      inferno: infernoPlugin,
-      react: reactPlugin,
       sortkeys: sortkeysPlugin,
-      tailwindcss: tailwindcssPlugin,
     },
     rules: {
       ...jsConfig.configs.recommended.rules,
       ...importPlugin.configs.typescript.rules,
-      ...tailwindcssPlugin.configs.recommended.rules,
       ...prettierConfig.rules,
       "arrow-body-style": ["error", "as-needed"],
       camelcase: [
@@ -94,7 +87,6 @@ export default [
           "newlines-between": "always",
         },
       ],
-      "inferno/jsx-props-class-name": ["error", "class"],
       "jest/no-deprecated-functions": "off",
       "line-comment-position": [
         "error",
@@ -132,16 +124,6 @@ export default [
           avoidEscape: true,
         },
       ],
-      "react/jsx-boolean-value": "error",
-      "react/jsx-curly-brace-presence": [
-        "error",
-        {
-          children: "ignore",
-          props: "never",
-        },
-      ],
-      "react/jsx-key": "off",
-      "react/jsx-sort-props": "error",
       "sort-imports": [
         "error",
         {
@@ -167,8 +149,6 @@ export default [
           },
         },
       ],
-      "tailwindcss/classnames-order": "off",
-      "tailwindcss/no-custom-classname": "off",
     },
     settings: {
       ...importPlugin.configs.typescript.settings,

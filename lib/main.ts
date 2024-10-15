@@ -1,3 +1,1 @@
-export type * from "./types";
-
-export * from "./tools.js";
+export { clamp } from "./clamp.js";
