@@ -7,3 +7,4 @@
 ## Functions
 
 - [clamp](functions/clamp.md)
+- [isClamped](functions/isClamped.md)

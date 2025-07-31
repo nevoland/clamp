@@ -34,4 +34,4 @@ The clamped value.
 
 ## Defined in
 
-[clamp.ts:11](https://github.com/nevoland/clamp/blob/8fcc488ba2ef699e665052ae2279623680b70a62/lib/clamp.ts#L11)
+[clamp.ts:11](https://github.com/nevoland/Clamp/blob/7cf8d0e22e116012b3b25d1047e797839dc1adf5/lib/clamp.ts#L11)
