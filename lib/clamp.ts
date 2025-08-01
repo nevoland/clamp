@@ -1,7 +1,7 @@
 /**
  * Clamps a value between a range delimited by two numbers.
  *
- * The bounds are automatically reversed if `a` is larger than `b`. However, each parameter has a specific default: `a` defaults to `-Infinity` and `b` defaults to `+Infinity`.
+ * The bounds are automatically reversed if `a` is larger than `b`.
  *
  * @param value The value to clamp.
  * @param a The minimum bound, defaulting to `-Infinity` if `undefined`.
