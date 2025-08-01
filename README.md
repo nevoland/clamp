@@ -7,7 +7,7 @@
 The main function is default exported from the main entry-point through an ES6 module:
 
 ```js
-import { clamp } from "@nevoland/clamp";
+import { clamp, isClamped } from "@nevoland/clamp";
 ```
 
 ## Installation
