@@ -10,7 +10,7 @@
 
 Clamps a value between a range delimited by two numbers.
 
-The bounds are automatically reversed if `a` is larger than `b`. However, each parameter has a specific default: `a` defaults to `-Infinity` and `b` defaults to `+Infinity`.
+The bounds are automatically reversed if `a` is larger than `b`.
 
 ## Parameters
 
@@ -34,4 +34,4 @@ The clamped value.
 
 ## Defined in
 
-[clamp.ts:11](https://github.com/nevoland/Clamp/blob/7cf8d0e22e116012b3b25d1047e797839dc1adf5/lib/clamp.ts#L11)
+[clamp.ts:11](https://github.com/nevoland/clamp/blob/73ed661d5691f8915a6907088cd9b6b95c5873d2/lib/clamp.ts#L11)
